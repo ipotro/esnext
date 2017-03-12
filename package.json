@@ -1,0 +1,31 @@
+{
+  "name": "es6.today",
+  "version": "1.0.0",
+  "description": "Learn ES6 with Test Driven Development",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ro9ues/es6.today.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "ES6",
+    "TDD",
+    "Blog",
+    "Book"
+  ],
+  "author": "rogues, an EXPERT javascript",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ro9ues/es6.today/issues"
+  },
+  "homepage": "https://github.com/ro9ues/es6.today#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "sass-lint": "^1.10.2"
+  }
+}
