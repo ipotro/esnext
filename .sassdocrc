@@ -1,0 +1,15 @@
+basePath: "https://github.com/ro9ues/es6.today"
+dest: "docs/sass"
+display:
+  access: ["private", "public"]
+  alias: true
+  watermark: true
+package:
+  title: "ES6 Today Docs"
+  name: "es6-today-docs"
+  version: "0.1.0"
+  license: "MIT"
+  homepage: "https://es6.today"
+theme: "neat"
+groups:
+  undefined: Ungrouped
