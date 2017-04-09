@@ -1,0 +1,14 @@
+title:        "Learn ESNEXT with TDD"
+description:  "Learn latest JavaScript version with TDD, is sexy."
+baseurl:      ""
+keywords:     "Frontend, Blog, JavaScript, esnext, TDD"
+url:          "https://esnext.sexy"
+ga:           ""
+storage:      ""
+author:
+  name: "Rogues"
+  twitter: "ro9ues"
+
+# Build settings
+markdown: kramdown
+theme: minima
