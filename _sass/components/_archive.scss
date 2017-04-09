@@ -1,0 +1,34 @@
+@charset 'utf-8';
+
+.archive {
+  border: 10px solid palette(red); // sass-lint:disable-line no-color-keywords, no-color-literals
+  min-height: 100vh;
+}
+
+.item {
+  padding: 60px 0;
+
+  &__date {
+    // sass-lint:disable no-color-keywords, no-color-literals
+    color: palette(red);
+    // sass-lint:enable no-color-keywords, no-color-literals
+    font-family: 'Deja Vu Sans', Menlo, Consolas;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  &__title {
+    // sass-lint:disable no-vendor-prefixes, no-duplicate-properties, no-color-keywords
+    background-image: -webkit-linear-gradient(palette(red), palette(red));
+    background-image: -moz-linear-gradient(palette(red), palette(red));
+    background-image: -o-linear-gradient(palette(red), palette(red));
+    background-image: linear-gradient(palette(red), palette(red));
+    // sass-lint:enable no-vendor-prefixes, no-duplicate-properties, no-color-keywords
+    background-position: 0 71%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    font-size: 86px;
+    line-height: 107px;
+    text-align: center;
+  }
+}
