@@ -2,6 +2,21 @@
 # `esnext` stylesheet
 ---
 
+@font-face {
+    font-family: 'peynaud';
+    src: url('https://storage.googleapis.com/ro9ues/fonts/peynaud-medium.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+code {
+  font-family: 'Deja Vu Sans', Menlo, 'monosten';
+}
+
 @charset 'utf-8';
 
 @import 'theme/palette';
@@ -10,12 +25,9 @@
 @import 'functions/color.black';
 @import 'functions/palette';
 
-@import 'utils/active-language';
-
 @import 'theme/setup';
 
-@import 'components/archive';
-@import 'components/article';
-@import 'components/footer';
 @import 'components/about';
 @import 'components/post';
+@import 'components/hero';
+@import 'components/translation';
