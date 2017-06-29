@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+@include test-module('Sass :: palette') {
+  @include test('Should return the appropiate hex value from $palette') {
+    $actual: palette(dusty-gray);
+    $expected: #999;
+
+    @include assert-equal($actual, $expected);
+  }
+}
